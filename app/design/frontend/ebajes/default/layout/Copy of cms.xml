@@ -117,9 +117,7 @@ Default layout, loads most of the pages
                 <action method="setBlockId"><block_id>ebajes_homepage_best_sellers</block_id></action>
             </block>
 			<block type="core/template" name="content_home_tab" template="cms/content_home_tab.phtml" />
-			<block type="cms/block" name="ebajes_ngo_block">
-                <action method="setBlockId"><block_id>ebajes_ngo_block</block_id></action>
-            </block>
+				
         </reference>
 		<reference name="content_home_tab">
 			<block type="cms/block" name="ebajes_new_products_home_tab">
@@ -132,7 +130,7 @@ Default layout, loads most of the pages
 				<action method="setBlockId"><block_id>ebajes_sale_products_home_tab</block_id></action>
 			</block>
 		</reference>
-		<reference name="left">
+		<reference name="left">ebajes_ngo_block
 			<block type="cms/block" name="ebajes_quick_selections_sidebar">
                 <action method="setBlockId"><block_id>ebajes_quick_selections_sidebar</block_id></action>
             </block>

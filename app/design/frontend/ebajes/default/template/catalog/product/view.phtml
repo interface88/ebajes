@@ -54,7 +54,7 @@
             <div class="product-name">
                 <h1><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
             </div>
-
+            
             <?php echo $this->getReviewsSummaryHtml($_product, false, true)?>
 
             <?php if ($this->canEmailToFriend()): ?>
@@ -65,6 +65,7 @@
             <?php echo $this->getChildHtml('product_type_data') ?>
             <?php echo $this->getTierPriceHtml() ?>
             <?php echo $this->getChildHtml('extrahint') ?>
+			<?php echo $_helper->productAttribute($_product, $_product->getHaloDeliveryTiming(), 'halo_delivery_timing') ?>
 
             <?php if (!$this->hasOptions()):?>
                 <div class="add-to-box">
