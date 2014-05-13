@@ -2325,7 +2325,7 @@ background: -o-linear-gradient(bottom, #f0f0f0 0%, #ffffff 20%);}
 
 .footer-1-wrapper{ background:url(../images/bkg-footer.png) bottom center no-repeat transparent; padding-bottom: 3px;}
 .footer-1-inner{border-bottom: 1px solid #d0d0d0;}
-.footer-1{background:url(../images/bkg-top-footer.png) top left repeat-x transparent; padding-top: 3px; margin-top: -1px; overflow:hidden;}
+.footer-1{background:url(../images/bkg-top-footer.png) top left repeat-x transparent; padding-top: 3px; /*margin-top: -1px;*/ overflow:hidden;}
 .footer-1 .block-subscribe{float:left; width: 65%; margin-right:2%;margin-bottom:0;}
 .footer-1 .block-subscribe .block-title{display:none;}
 .footer-1 .block-subscribe .block-content{background:none; border:none;}
