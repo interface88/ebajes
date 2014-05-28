@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Saman_App>
+			<version>0.1.0</version>
+		</Saman_App>
+	</modules>
+	<frontend>
+		<routers>
+			<saman_app>
+				<use>standard</use>
+				<args>
+					<module>Saman_App</module>
+					<frontName>app</frontName>
+				</args>
+			</saman_app>
+		</routers>
+		<layout>
+			<updates>
+				<saman_app module="saman_app">
+					<file>saman_app.xml</file>
+				</saman_app>
+			</updates>
+		</layout>
+
+	</frontend>
+</config>
+

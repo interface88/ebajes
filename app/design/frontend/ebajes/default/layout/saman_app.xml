@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<saman_app_index_index></saman_app_index_index>
+	<saman_app_index_ngo>
+		<reference name="content">
+			<block name="app.ngo" type="core/template" template="saman_app/product_by_manufactured.phtml" as="app_ngo"/>
+		</reference>
+	</saman_app_index_ngo>
+</layout>

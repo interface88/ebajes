@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Saman_App>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Saman_App>
+	</modules>
+</config>
