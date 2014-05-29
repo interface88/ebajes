@@ -107,12 +107,6 @@ Default layout, loads most of the pages
         <label>CMS Home Page</label>
 		<reference name="content">
 			<block type="slideshow/slides" name="slides" template="ev_slideshow/slides.phtml"/>
-            <block type="cms/block" name="ebajes_account_homepage">
-                <action method="setBlockId"><block_id>ebajes_account_homepage</block_id></action>
-            </block>
-			<block type="cms/block" name="ebajes_homepage_advertisement">
-                <action method="setBlockId"><block_id>ebajes_homepage_advertisement</block_id></action>
-            </block>
 			<block type="cms/block" name="ebajes_homepage_best_sellers">
                 <action method="setBlockId"><block_id>ebajes_homepage_best_sellers</block_id></action>
             </block>
